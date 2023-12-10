@@ -2,7 +2,7 @@ import React from "react";
 import Home from './Home';
 import NavBar from './NavBar';
 import About from './About';
-import {username,city,image} from '../data/user.js';
+// import {username,city,image} from '../data/user.js';
 
 function App() {
 
@@ -12,8 +12,8 @@ function App() {
   return (
     <div>
       <NavBar />
-      <Home username= {username} city={city} />
-      <About image={image} />
+      <Home  />
+      <About />
       
     </div>
   );
