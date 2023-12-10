@@ -1,6 +1,7 @@
 import React from "react";
 
-function Home({username,city}) {
+function Home(props) {
+  const {username, city} = props 
   return (
     <div id="home">
       <h1>
